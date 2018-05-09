@@ -23,6 +23,7 @@ public class ThreadSwitch {
                         count.notifyAll();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        break;
                     }
                 }
             }
@@ -40,6 +41,7 @@ public class ThreadSwitch {
                         count.notifyAll();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        break;
                     }
                 }
             }
@@ -57,6 +59,7 @@ public class ThreadSwitch {
                         count.notifyAll();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
+                        break;
                     }
                 }
             }
